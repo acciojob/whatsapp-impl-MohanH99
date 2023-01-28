@@ -6,6 +6,7 @@ public class Message {
     private int id;
     private String content;
     private Date timestamp;
+
     public Message(int id) {
         this.id = id;
         this.timestamp = new Date();
